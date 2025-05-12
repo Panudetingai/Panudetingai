@@ -1,106 +1,63 @@
-<h2 align="left">Hi 👋, I'm Panudet inagi</h2>
+<h1 align="center">Hi 👋, I'm Panudet Inagi</h1>
+<h3 align="center">A passionate full-stack developer from Thailand</h3>
 
-###
+---
 
-<h2 align="left">Skills</h2>
+## 🧠 About Me
 
-###
+- 💻 I love building interactive web apps with **React**, **Next.js**, and **Node.js**
+- 🧩 Passionate about clean code, UI/UX design, and scalable architecture
+- 🛠️ Experienced with both frontend & backend development
+- 📫 How to reach me: **panudetingai@gmail.com**
 
-<p align="left">Languages</p>
+---
 
-###
+## 🛠️ Languages & Tools
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=js" height="30" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ts" height="30" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=html" height="30" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=css" height="30" alt="css3 logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=py" height="30" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="30" alt="php logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=sass" height="30" alt="sass logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=cs" height="30" alt="csharp logo"  />
-</div>
+### 👨‍💻 Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,php,sass,cs" height="30" />
+</p>
 
-###
+### 📚 Frameworks & Libraries
+<p>
+  <img src="https://skillicons.dev/icons?i=react,angular,nextjs,express,bootstrap,tailwind,dotnet" height="30" />
+  <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" height="30" alt="zustand logo" />
+</p>
 
-<p align="left">framework & library</p>
+### 🗄️ Databases
+<p>
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase" height="30" />
+</p>
 
-###
+### ⚙️ Tools & Platforms
+<p>
+  <img src="https://skillicons.dev/icons?i=github,postman" height="30" />
+  <img src="https://cdn.simpleicons.org/npm/CB3837" height="30" alt="npm logo" />
+  <img src="https://bun.sh/logo.svg" height="30" alt="bun logo" />
+</p>
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=react" height="30" alt="react logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=angular" height="30" alt="angularjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nextjs" height="30" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=express" height="30" alt="express logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=redux" height="30" alt="redux logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=bootstrap" height="30" alt="bootstrap logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=tailwind" height="30" alt="tailwindcss logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=dotnet" height="30" alt="dot-net logo"  />
-</div>
+---
 
-###
+## 📫 Contact
 
-<p align="left">Database</p>
+- ✉️ **Email**: panudetingai@gmail.com
 
-###
+---
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=mongodb" height="30" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=mysql" height="30" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postgres" height="30" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=gcp" height="30" alt="googlecloud logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=firebase" height="30" alt="firebase logo"  />
-</div>
+## 📈 GitHub Stats
 
-###
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=panudet-inagi&show_icons=true&theme=radical" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=panudet-inagi&layout=compact&theme=radical" height="180"/>
+</p>
 
-<p align="left">Tools</p>
+---
 
-###
+## ☕ Support Me
 
-<div align="left">
-  <img src="https://skillicons.dev/icons?i=git" height="30" alt="git logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=github" height="30" alt="github logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/npm/CB3837" height="30" alt="npm logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=postman" height="30" alt="postman logo"  />
-</div>
-
-###
-
-<h2 align="left">Contact</h2>
-
-###
-
-<p align="left">email: codedroy3@gmail.com</p>
-
-###
-
-<img align="right" height="150" src="https://clipart-library.com/images/8ixKaobip.gif"  />
-
-###
-
-<br clear="both">
-
-<img src="https://raw.githubusercontent.com/Panudetingai/Panudetingai/0f00d4796322406acbc13748d666cc8d31b48e7b/snake.svg" alt="Snake animation" />
-
+<p align="center">
+  <a href="https://www.buymeacoffee.com/yourlink" target="_blank">
+    <img src="https://img.shields.io/badge/Buy Me A Coffee-FFDD00?style=flat&logo=buymeacoffee&logoColor=black" />
+  </a>
+</p>
