@@ -16,18 +16,19 @@
 
 ### 👨‍💻 Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,php,sass,cs" height="30" />
+  <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,php,cs,nodejs" height="30" />
 </p>
 
 ### 📚 Frameworks & Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=react,angular,nextjs,express,bootstrap,tailwind,dotnet" height="30" />
+  <img src="https://skillicons.dev/icons?i=react,angular,nextjs,bootstrap,tailwind,dotnet" height="30" />
+  <img src="https://raw.githubusercontent.com/honojs/hono/main/docs/images/hono-title.png" height="30" alt="zustand logo" />
   <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" height="30" alt="zustand logo" />
 </p>
 
 ### 🗄️ Databases
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase" height="30" />
+  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" height="30" />
 </p>
 
 ### ⚙️ Tools & Platforms
