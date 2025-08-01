@@ -1,37 +1,38 @@
-<h1 align="center">Hi 👋, I'm Panudet Inagi</h1>
-<h3 align="center">A passionate full-stack developer from Thailand</h3>
+<h1>Panudet Inagi</h1>
+<h3>Full-Stack Web Developer | Based in Thailand</h3>
+
 
 ---
 
-## 🧠 About Me
+## 💼 What I Can Do
 
-- 💻 I love building interactive web apps with **React**, **Next.js**, and **Node.js**
-- 🧩 Passionate about clean code, UI/UX design, and scalable architecture
-- 🛠️ Experienced with both frontend & backend development
-- 📫 How to reach me: **panudetingai@gmail.com**
+- Develop modern web applications using **React**, **Next.js**, **Node.js**
+- Design scalable backend APIs with **Express**, **Hono**, **Prisma**
+- Create clean UI with **Tailwind CSS**, **Shadcn UI**, **Ant Design**
+- Work with relational and NoSQL databases like **PostgreSQL**, **MongoDB**, **MySQL**
+- Integrate real-time systems using **Socket.IO**
+- Write maintainable, well-tested code with **TypeScript**
 
----
 
-## 🛠️ Languages & Tools
+## ⚙️ Tech Stack
 
-### 👨‍💻 Languages
+### 🧠 Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=js,ts,html,css,py,php,cs,nodejs" height="30" />
+  <img src="https://skillicons.dev/icons?i=ts,js,html,css" height="30" />
 </p>
 
-### 📚 Frameworks & Libraries
+### 📦 Frameworks & Libraries
 <p>
-  <img src="https://skillicons.dev/icons?i=react,angular,nextjs,bootstrap,tailwind,dotnet" height="30" />
-  <img src="https://raw.githubusercontent.com/honojs/hono/main/docs/images/hono-title.png" height="30" alt="zustand logo" />
-  <img src="https://user-images.githubusercontent.com/958486/218346783-72be5ae3-b953-4dd7-b239-788a882fdad6.svg" height="30" alt="zustand logo" />
+  <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,tailwind" height="30" />
+  <img src="https://raw.githubusercontent.com/honojs/hono/main/docs/images/hono-title.png" height="30" alt="hono logo" />
 </p>
 
-### 🗄️ Databases
+### 🗃️ Databases
 <p>
-  <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres" height="30" />
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql" height="30" />
 </p>
 
-### ⚙️ Tools & Platforms
+### 🔧 Tools & Platforms
 <p>
   <img src="https://skillicons.dev/icons?i=github,postman" height="30" />
   <img src="https://cdn.simpleicons.org/npm/CB3837" height="30" alt="npm logo" />
@@ -42,7 +43,7 @@
 
 ## 📫 Contact
 
-- ✉️ **Email**: panudetingai@gmail.com
+- ✉️ Email: **panudetingai@gmail.com**
 
 ---
 
