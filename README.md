@@ -18,15 +18,6 @@
 
 I build modern, scalable, user-focused web applications — from pixel-perfect UIs to robust APIs. Currently exploring **AI Agents**, the **MCP ecosystem**, and **scalable system design**.
 
-```ts
-const panudet = {
-  role: "Full-Stack Web Developer",
-  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS", "shadcn/ui"],
-  backend:  ["Node.js", "Express", "Hono", "Prisma", "Socket.IO"],
-  database: ["PostgreSQL", "MongoDB", "MySQL"],
-};
-```
-
 ## Tech Stack
 
 | | |
@@ -46,9 +37,6 @@ const panudet = {
 ## GitHub Stats
 
 <div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=panudet&show_icons=true&theme=graywhite&include_all_commits=true&count_private=true&hide_border=true" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=panudet&layout=compact&theme=graywhite&hide_border=true" />
 
 </div>
 
