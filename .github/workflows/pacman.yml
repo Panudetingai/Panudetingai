@@ -1,4 +1,4 @@
-name: Generate Pacman Contribution Graph
+name: Generate Pacman
 
 on:
   schedule:
@@ -9,13 +9,16 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  pacman:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: abozanona/pacman-contribution-graph@main
         with:
-          filename: pacman-output/puzzle-bobble-contribution-graph.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          github_user_name: ${{ github.repository_owner }}
 
-          plugin_isocalendar: yes
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: pacman-output
+          folder: dist
