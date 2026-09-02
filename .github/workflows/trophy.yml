@@ -38,7 +38,7 @@ jobs:
           margin-height: 8
           no-frame: true
         env:
-          GITHUB_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: push trophy.svg
         uses: crazy-max/ghaction-github-pages@v4
