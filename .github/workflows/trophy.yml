@@ -10,7 +10,6 @@ on:
 
 jobs:
   generate:
-    permissions: read-all
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
@@ -25,7 +24,7 @@ jobs:
           margin-height: 8
           no-frame: true
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # <--- ต้องใส่ตรงนี้เพื่อส่ง Token ให้กับ API
 
       - name: push trophy.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
