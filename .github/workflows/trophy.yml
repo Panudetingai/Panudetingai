@@ -2,33 +2,31 @@ name: Generate trophy
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # ลดเป็นวันละครั้ง ลดโอกาสโดน rate limit
+    - cron: "0 0 * * *"
   workflow_dispatch:
   push:
     branches:
       - main
 
 permissions:
-  contents: write   # จำเป็นให้ step push ไป branch อื่นทำงานได้
+  contents: write
 
 jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
-      - name: debug - check token
+      - name: debug
         env:
-          TROPHY_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+          T: ${{ secrets.TROPHY_TOKEN }}
         run: |
-          echo "token length = ${#TROPHY_TOKEN}"
-          if [ -z "$TROPHY_TOKEN" ]; then
-            echo "::error::secret is EMPTY in this run"
-            exit 1
-          fi
+          echo "workflow_ref = ${{ github.workflow_ref }}"
+          echo "repo = ${{ github.repository }}"
+          echo "token length = ${#T}"
           code=$(curl -s -o /dev/null -w "%{http_code}" \
-            -H "Authorization: Bearer $TROPHY_TOKEN" https://api.github.com/user)
-          echo "GitHub API status = $code (200 = token valid)"
-    
+            -H "Authorization: Bearer $T" https://api.github.com/user)
+          echo "token check = $code (200 = valid)"
+
       - name: generate trophy.svg
         uses: ryo-ma/github-profile-trophy@master
         with:
@@ -40,9 +38,9 @@ jobs:
           margin-height: 8
           no-frame: true
         env:
-          GITHUB_TOKEN: ${{ secrets.TROPHY_TOKEN }}   # <--- ใช้ PAT แทน
+          GITHUB_TOKEN: ${{ secrets.TROPHY_TOKEN }}
 
-      - name: push trophy.svg to the output branch
+      - name: push trophy.svg
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: trophy-output
