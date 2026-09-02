@@ -16,6 +16,19 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 5
     steps:
+      - name: debug - check token
+        env:
+          TROPHY_TOKEN: ${{ secrets.TROPHY_TOKEN }}
+        run: |
+          echo "token length = ${#TROPHY_TOKEN}"
+          if [ -z "$TROPHY_TOKEN" ]; then
+            echo "::error::secret is EMPTY in this run"
+            exit 1
+          fi
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "Authorization: Bearer $TROPHY_TOKEN" https://api.github.com/user)
+          echo "GitHub API status = $code (200 = token valid)"
+    
       - name: generate trophy.svg
         uses: ryo-ma/github-profile-trophy@master
         with:
